@@ -1,0 +1,54 @@
+body {
+    background-image: url("https://media.npr.org/assets/img/2022/10/04/gettyimages-1243732454-27679070c5e9b8ec7e910543f37d86c13d6d3063-s800-c85.webp");
+    background-size: cover;
+    background-repeat: repeat-y;
+    background-position: center;
+    
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    text-shadow: 0px 0px 10px black;
+    height: 100vh;
+}
+
+#page-max-width {
+    max-width: 1080px;
+    margin: 150px auto;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#increment-btn {
+    background: darkblue;
+    border: 3px solid red;
+    text-shadow: 0px 0px 10px red;
+}
+
+#save-btn {
+    background: red;
+    border: 3px solid darkblue;
+    text-shadow: 0px 0px 10px blue;
+}
+
